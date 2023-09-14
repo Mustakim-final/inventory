@@ -222,11 +222,19 @@
                                         class="md md-add"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="{{ route('add-customer') }}">Add New</a></li>
-
-
+                                <li><a href="{{ route('all-customer') }}">All Customers</a></li>
                             </ul>
                         </li>
 
+                        <li class="has_sub">
+                            <a href="#" class="waves-effect"><i class="fa fa-users"
+                                    aria-hidden="true"></i><span> Supliers </span><span class="pull-right"><i
+                                        class="md md-add"></i></span></a>
+                            <ul class="list-unstyled">
+                                <li><a href="{{ route('add-suplier') }}">Add New</a></li>
+                                <li><a href="{{ route('all-supliers') }}">All Supliers</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <a href="calendar.html" class="waves-effect"><i class="md md-event"></i><span> Calendar
                                 </span></a>
